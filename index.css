@@ -340,3 +340,202 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     /* line-height: 30px; */
 }
+
+
+
+/*        For About page */
+
+.about-container {
+    padding-top: 140px;
+    /* padding-top: 250px; */
+    overflow: hidden;
+    /* background-image: url(img/simple\ aesthetic\ local\ electronic\ shop\ product.jpg); */
+    background-image: linear-gradient(to right, rgb(92, 92, 92, 0.7), rgb(184, 168, 146, 0.7)), url(img/simple\ aesthetic\ local\ electronic\ shop\ product.jpg);
+    background-size: cover;
+}
+
+.about-container2 {
+    /* padding-top: 140px; */
+    padding-top: 250px;
+    overflow: hidden;
+    /* background-image: url(img/simple\ aesthetic\ local\ electronic\ shop\ product.jpg); */
+    background-image: linear-gradient(to right, rgb(92, 92, 92, 0.7), rgb(184, 168, 146, 0.7)), url(img/simple\ aesthetic\ local\ electronic\ shop\ product.jpg);
+    background-size: cover;
+}
+
+.about1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.about1-img {
+    width: 635px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    filter: brightness(0.8);
+    transition: filter 0.4s;
+    cursor: pointer;
+}
+
+.about1-img2 {
+    width: 635px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    filter: brightness(0.8);
+    transition: filter 0.4s;
+    cursor: pointer;
+}
+
+.about1-img3 {
+    width: 635px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    filter: brightness(0.8);
+    transition: filter 0.4s;
+    cursor: pointer;
+}
+
+.about1-img:hover {
+    filter: brightness(1);
+    box-shadow: 0 8px 402px 0 rgba(0, 0, 0, 0.527);
+}
+
+.about1-img2:hover {
+    filter: brightness(1);
+    box-shadow: 0 8px 402px 0 rgba(255, 185, 22, 0.528);
+}
+
+.about1-img3:hover {
+    filter: brightness(1);
+    box-shadow: 0 8px 402px 0 rgba(201, 201, 201, 0.528);
+}
+
+.about1-text {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    text-align: justify;
+    /* font-weight: 500; */
+}
+
+.about1-text span {
+    color: rgb(226, 160, 37);
+    font-size: 31px;
+}
+
+.about1-content h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 24px;
+}
+
+/* .about1-content::after {
+    content: '';
+    height: 4px;
+    width: 100%;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.7s;
+    transition-timing-function: ease;
+    transform: scaleX(0);
+}
+
+.about1-content:hover::after {
+    transform: scaleX(1);
+} */
+
+.about1-content {
+    background: linear-gradient(rgba(49, 45, 45, 0.4), rgba(29, 23, 23, 0.4));
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+
+/*    For Contact page */
+
+.contact-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    /* background: #fff; */
+    background: linear-gradient(rgba(49, 45, 45, 0.4), rgba(29, 23, 23, 0.4));
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding-top: 100px;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.contact-header p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 150px;
+}
+
+.contact-form button {
+    padding: 0.8rem;
+    background: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.5s;
+}
+
+.contact-form button:hover {
+    background: #2980b9;
+}
